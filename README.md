@@ -25,7 +25,7 @@ git clone https://github.com/triwahyu45/DIRECTOR.git ~/.claude/skills/DIRECTOR
 
 - **Runtime / Tools**: None required for creative authoring; **Python 3.10+** when invoking `samurai` CLI tools
 - **MCP Servers**: None required (optional: `edge-tts-mcp` for quick voiceover drafts)
-- **Related Skills**: [`samurai`](https://github.com/triwahyu45/samurai) (execution/rendering engine — clone as sibling folder `../samurai`)
+- **Related Skills**: [`samurai`](https://github.com/triwahyu45/SAMURAI) (execution/rendering engine — clone as sibling folder `../samurai`)
 - **API Keys / Secrets**: None (100% local & free)
 
 ---
