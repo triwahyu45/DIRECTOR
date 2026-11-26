@@ -5,7 +5,7 @@ description: Creative Video Director skill. Use when directing any motion video 
 
 # Director — Creative Direction, Timeline & Scene-Spec Authoring
 
-Pure creative director skill. Transforms a brief, voiceover script, or music track into a **treatment**, **11-block shot blueprint**, **`timeline.json`**, and schema-valid **`scene_spec.json`** targeting the read-only `samurai` Engine contract.
+Pure creative director skill (owns treatments, 11-block shot blueprints, pacing dials, and 3-pass Critic QA). Transforms a brief, voiceover script, or music track into **`timeline.json`** and schema-valid **`scene_spec.json`** targeting `SAMURAI` (Katana engine), `STUDIO` (Remotion/Three.js), or `ATELIER` (Blender PBR), paired with `SONIC` for audio.
 
 ---
 
