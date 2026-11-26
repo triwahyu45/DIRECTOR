@@ -45,6 +45,10 @@ Every major shot or scene beat MUST specify these 11 blocks in exact order befor
 4. `NEGATIVE CONSTRAINTS` has >= 4 load-bearing entries?
 5. Brand/character tokens copied verbatim?
 
+### Visual 3×4 Storyboard Pre-Vis & 4:5 Feed Cover Spec
+- For 45–60s vertical 9:16 explainers/stories, optionally generate a **10–12 panel 3×4 visual storyboard grid** (via `image-generator` subagent) alongside the 11-block blueprint to lock visual metaphors and framing before invoking `SAMURAI`.
+- For Instagram Reels / TikTok deliverables, specify a dedicated **`cover.png` (4:5 center-crop safe zone, max 2-line title)** in the shot plan.
+
 ---
 
 ## 3. Motion, Sound & Craft Laws
@@ -56,6 +60,7 @@ Every major shot or scene beat MUST specify these 11 blocks in exact order befor
 - **Pixel-Scale Anticipation**: Compute anticipation in pixels (`>= 18px` at 1080p; `4px` is invisible on mobile).
 - **Hook in First 3s (Muted Test)**: By `t = 3.0s`, core promise + subject must be readable at `>= 84px` hook / `>= 48px` CTA (`1080p` short side) with `>= 7:1` contrast.
 - **Sound on Same Clock**: Silence before payoff, loudest non-voice hit on payoff, `-14 LUFS ±1`, true peak `<= -1 dBTP`.
+- **Canonical Script Ground-Truth & Dry VO Pacing**: When clock = `Voice`, align `transcribe_beats.py` / Whisper timestamps against the **canonical original script** (never ship raw ASR mishearings), use **Dry VO** trimmed of `> 0.3s` silences at `1.1x–1.2x` pace for lip-sync/beat accuracy, and validate `qa_sheet.jpg` + `cover.png` before full `60fps` render.
 
 ---
 
