@@ -10,7 +10,7 @@ Clone this skill into your agent's global or project skills directory:
 
 | Agent | Global Install Path | Project-Local Path |
 | :--- | :--- | :--- |
-| **Antigravity** | `~/.gemini/config/skills/DIRECTOR` | `.agents/skills/DIRECTOR` |
+| **Antigravity** | Global Antigravity skills dir | `.agents/skills/DIRECTOR` |
 | **Claude Code** | `~/.claude/skills/DIRECTOR` | `.claude/skills/DIRECTOR` |
 | **OpenAI Codex** | `~/.codex/skills/DIRECTOR` | `.agents/skills/DIRECTOR` |
 
