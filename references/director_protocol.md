@@ -15,7 +15,7 @@ Reference sub-module distilled from `video-director` (11-Block Cinematic Archite
 3. **Register** (look & physics):
    - `Clean/premium` (60fps, spring `ζ=0.72–1.0`, no grain/particles)
    - `Handmade/playful` (24fps on twos, `ζ=0.4–0.7`, squash & stretch, grain)
-   - `Editorial/documentary` (30fps, restrained moves, strict `FACTS.md`)
+   - `Editorial/documentary` (`24–30fps`, restrained smooth dolly/orbit/top-down cuts, shallow DoF studio key+rim, calm `110–125 WPM` VO with `0.3–0.5s` pauses, strict `FACTS.md` with on-screen source citations, `-14 LUFS` with tight `LRA 2–4 LU`; covers `STUDIO-BENCH` engineering documentaries)
    - `Kinetic` (30 or 60fps, fast-in hold next, cut-clamped `4x/12x` shutter blur, 3-layer fireflies, optical bloom)
 4. **Text Policy**:
    - `Type as hero` | `In-world captions` | `No text` (exception: hook in first 3s unless waived).
@@ -61,6 +61,7 @@ Every major shot or scene beat MUST specify these 11 blocks in exact order befor
 - **Hook in First 3s (Muted Test)**: By `t = 3.0s`, core promise + subject must be readable at `>= 84px` hook / `>= 48px` CTA (`1080p` short side) with `>= 7:1` contrast.
 - **Sound on Same Clock**: Silence before payoff, loudest non-voice hit on payoff, `-14 LUFS ±1`, true peak `<= -1 dBTP`.
 - **Canonical Script Ground-Truth & Dry VO Pacing**: When clock = `Voice`, align `transcribe_beats.py` / Whisper timestamps against the **canonical original script** (never ship raw ASR mishearings), use **Dry VO** trimmed of `> 0.3s` silences at `1.1x–1.2x` pace for lip-sync/beat accuracy, and validate `qa_sheet.jpg` + `cover.png` before full `60fps` render.
+- **Persistent Studio Set & Physical-Unit Analogy**: For multi-episode technical explainers, lock 1 reusable dark studio workbench environment (swapping only the hero prop per episode) and translate abstract units into physical 3D metaphors (e.g., joules → marbles on a ruler, cable capacitance → glowing dielectric cutaway) anchored by 3D-tracked callout pins + micro source citations.
 
 ---
 
