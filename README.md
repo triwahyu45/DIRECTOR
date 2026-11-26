@@ -1,4 +1,4 @@
-# director — Creative Video Director & Timeline Authoring
+# DIRECTOR — Creative Video Director & Timeline Authoring
 
 AI Agent Skill for **Antigravity**, **Claude Code**, and **OpenAI Codex**. Transforms a brief, voiceover script, or music track into a creative treatment, 11-block shot blueprint, `timeline.json`, schema-valid `scene_spec.json`, and critic fix cards.
 
@@ -10,13 +10,13 @@ Clone this skill into your agent's global or project skills directory:
 
 | Agent | Global Install Path | Project-Local Path |
 | :--- | :--- | :--- |
-| **Antigravity** | `~/.gemini/config/skills/director` | `.agents/skills/director` |
-| **Claude Code** | `~/.claude/skills/director` | `.claude/skills/director` |
-| **OpenAI Codex** | `~/.codex/skills/director` | `.agents/skills/director` |
+| **Antigravity** | `~/.gemini/config/skills/DIRECTOR` | `.agents/skills/DIRECTOR` |
+| **Claude Code** | `~/.claude/skills/DIRECTOR` | `.claude/skills/DIRECTOR` |
+| **OpenAI Codex** | `~/.codex/skills/DIRECTOR` | `.agents/skills/DIRECTOR` |
 
 ```bash
 # Example (Antigravity / Claude Code / Codex — pick your path):
-git clone https://github.com/triwahyu45/director.git ~/.claude/skills/director
+git clone https://github.com/triwahyu45/DIRECTOR.git ~/.claude/skills/DIRECTOR
 ```
 
 ---

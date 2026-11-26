@@ -1,5 +1,5 @@
 ---
-name: director
+name: DIRECTOR
 description: Creative Video Director skill. Use when directing any motion video from a brief, script, or music track to produce a treatment, 11-block shot blueprint, timeline.json, scene_spec.json, or critic fix cards (bikin video dari brief/naskah/musik, susun treatment/timeline/scene_spec). Targets the standalone samurai engine CLI when rendering Katana motion.
 ---
 
