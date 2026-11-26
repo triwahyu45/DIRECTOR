@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration_frames": 90,
+    "audio_path": null,
+    "clock_source": "voice",
+    "renderer": "canvas2d",
+    "shutter_samples": 4,
+    "shutter_angle": 180,
+    "linear_light": true
+  },
+  "dials": {
+    "clock": "voice",
+    "continuity": "cut_on_beat",
+    "register": "kinetic",
+    "text_policy": "type_as_hero"
+  },
+  "camera": {
+    "type": "ortho2d",
+    "position": { "x": [{ "t": 0, "v": 0 }], "y": [{ "t": 0, "v": 0 }] },
+    "zoom": [{ "t": 0, "v": 1.0 }, { "t": 3.0, "v": 1.06, "ease": "linear" }]
+  },
+  "scenes": [
+    { "id": "s01_hook", "start_frame": 0, "end_frame": 90 }
+  ],
+  "layers": [
+    {
+      "id": "bg",
+      "type": "panel_bg",
+      "z": 0,
+      "scene_id": "s01_hook",
+      "tracks": { "hex": [{ "t": 0, "v": "#070709" }], "glowHex": [{ "t": 0, "v": "#240908" }] }
+    },
+    {
+      "id": "hero_title",
+      "type": "animated_text",
+      "z": 10,
+      "scene_id": "s01_hook",
+      "transform": { "x": [{ "t": 0, "v": 960 }], "y": [{ "t": 0, "v": 540 }] },
+      "tracks": { "opacity": [{ "t": 0, "v": 0 }, { "t": 0.2, "v": 1, "ease": "expoOut" }] },
+      "props": { "text": "SAMURAI", "font": "900 260px \"Archivo Black\", sans-serif", "color": "#F4F1EA" }
+    }
+  ],
+  "transitions": [],
+  "beats": [
+    { "frame": 12, "strength": 0.95, "hero_layer_id": "hero_title", "sfx_id": "sub_impact_01" }
+  ]
+}

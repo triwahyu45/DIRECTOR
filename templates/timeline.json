@@ -1,0 +1,10 @@
+{
+  "fps": 30,
+  "duration_sec": 3.0,
+  "clock_source": "voice",
+  "beats": [
+    { "id": "b01", "time_sec": 0.0, "frame": 0, "word": "[spark_intro]", "strength": 0.4, "sfx_id": "riser_01" },
+    { "id": "b02", "time_sec": 0.4, "frame": 12, "word": "NO WAY.", "strength": 0.95, "sfx_id": "sub_impact_01" },
+    { "id": "b03", "time_sec": 1.5, "frame": 45, "word": "[whip_cut]", "strength": 0.8, "sfx_id": "whoosh_01" }
+  ]
+}
